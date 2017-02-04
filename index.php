@@ -83,8 +83,15 @@
 </fieldset>
 <input type="submit" value="Add to Order">
 <fieldset>
+    <!--Kerstin added the total meal cost area       --->
 <legend>Your Order</legend>
+    <h1> Total Meal Cost</h1>
+   <label>Meal Cost:<?php echo number_format($meal_cost, 2)?></label><br>
+            
+   <label>Tax:<?php echo number_format ($tax, 2 )?></label><br>
 
+   <label>Total:<?php echo number_format ($total, 2 )?></label><br>
+ 
 
 
 <textarea name="instructions" rows="8"></textarea>
